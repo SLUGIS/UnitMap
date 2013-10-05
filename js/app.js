@@ -5,6 +5,8 @@ var center = new L.LatLng(0, 0);
 var map = new L.Map('map', {center: center, zoom: 2, maxZoom: maxZoom, layers: [basemap]});
 
 //otherBasemaps
+var mbStreets = L.tileLayer('http://{s}.tiles.mapbox.com/v3/slugis.map-56nzvdgc/{z}/{x}/{y}.png', { attribution: 'Map tiles &copy; <a href="http://mapbox.com">MapBox</a>', maxZoom: 19 });
+
 var combined2011 = L.tileLayer('http://gis.slocounty.ca.gov/arcgis/rest/services/Aerials/2011_Combined_WGSWMAS/MapServer/tile/{z}/{y}/{x}', {
     maxZoom: 20,
     attribution: 'Data <a href="http://www.slocounty.ca.gov/IT/GIS">San Luis Obispo County</a> | <a href="https://github.com/SLUGIS/leaflet-basic">Code</a>'
@@ -144,6 +146,7 @@ if(typeof(String.prototype.strip) === "undefined") {
 
 var baseLayers = {
     "basemap": basemap,
+    "MapBox streets": mbStreets,
     "(2011) combined": combined2011,
     "(2007) 12\"": oneFoot2007,
     "(2003) 12\"": oneFoot2003
