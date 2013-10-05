@@ -1,0 +1,31 @@
+name,owner,unit,address,city,zip,county,cad_name,lat,lon,funding,phone_num,aka,eng_type_1,eng_type_2,eng_type_3,wtender_ty,wtender__1,other_reso,staffing,type,doz_type_2,remark,class,marker-symbol,marker-size,marker-color
+Morro Toro FS,COUNTY,SLU,15325 Hwy 41,Atascadero,93422,San Luis Obispo,SLU Morro-Toro Stn,35.4535486673,-120.751231847,A,805-466-5089,#14,0,1,0,0,0,0,V,FS,0,,SCHED_A,fire-station,medium,0000FF
+South Bay FS,COUNTY,SLU,2315 Bayview Heights Drive,Los Osos,93402,San Luis Obispo,SLU South Bay Stn,35.309413467,-120.833841323,A,805-528-1053,#15,0,2,0,0,0,Sm Rescue,P,FS,0,,SCHED_A,fire-station,medium,0000FF
+Airport FS,COUNTY,SLU,4651 Broad Street,San Luis Obispo,93401,San Luis Obispo,SLU Airport Stn,35.2381038857,-120.636333604,A,805-544-5105,#21,0,1,0,0,1,ICS Type 2 Rescue,P,FS,0,,SCHED_A,fire-station,medium,0000FF
+Mesa FS,COUNTY,SLU,2391 Willow Road,Arroyo Grande,93405,San Luis Obispo,SLU Mesa Stn,35.0468495698,-120.587428287,A,805-473-7171,#22,0,2,0,0,0,0,P,FS,0,,SCHED_A,fire-station,medium,0000FF
+Oak Shores FS,COUNTY,SLU,2569 Shoreline Drive,Paso Robles,93446,San Luis Obispo,SLU Oak Shores Stn,35.756706686,-120.984282557,A,805-427-9548,#34,0,1,0,0,0,0,V,FS,0,,SCHED_A,fire-station,medium,0000FF
+Heritage Ranch FS,COUNTY,SLU,"#3 Village Rd, Heritage Rnch 1",Paso Robles,93446,San Luis Obispo,SLU Heritage Ranch Stn,35.7219763345,-120.885694579,A,805-227-6553,#33,2,0,0,0,0,Sm Rescue,P,FS,0,,SCHED_A,fire-station,medium,0000FF
+Meridian FS,COUNTY,SLU,4050 Branch,Paso Robles,93446,San Luis Obispo,SLU Meridian Stn,35.6605841793,-120.578517157,A,805-237-3155,#36,1,0,0,0,0,0,P,FS,0,,SCHED_A,fire-station,medium,0000FF
+Creston FS,COUNTY,SLU,6055 Webster Rd,Creston,93432,San Luis Obispo,SLU Creston Stn,35.526373,-120.521403,A,805-238-4343,#43,1,1,0,0,0,0,P,FS,0,,SCHED_A,fire-station,medium,0000FF
+Carrizo Plain FS,COUNTY,SLU,"13080 Soda Lake Rd, POB 3099",California Valley,93453,San Luis Obispo,SLU Carrizo Plain Stn,35.3209542917,-120.003495395,A,805-475-2322,#42,0,0,1,0,0,Sm Rescue,P,FS,0,,SCHED_A,fire-station,medium,0000FF
+Shell Beach FS,CITY,SLU,2555 Shell Beach Road,Pismo Beach,93449,San Luis Obispo,SLU Shell Beach Stn,35.1622210128,-120.684396674,A,805-773-7051,#63,0,1,0,0,0,0,P,FS,0,,SCHED_A,fire-station,medium,0000FF
+Avila Valley FS,COUNTY,SLU,1551 Sparrow Street,San Luis Obispo,93405,San Luis Obispo,SLU Avila Valley Stn,35.1937497262,-120.718626286,A,805-595-2115,#62,1,0,0,0,0,BreathingSupp,P,FS,0,,SCHED_A,fire-station,medium,0000FF
+Pismo Beach FS,CITY,SLU,1000 Bello Street,Pismo Beach,93449,San Luis Obispo,SLU Pismo Stn,35.1440975382,-120.640374345,A,805-773-7050,#64,2,0,0,0,0,Sm Rescue,P,FS,0,,SCHED_A,fire-station,medium,0000FF
+Parkhill FS,COUNTY,SLU,6140 Parkhill Rd,Santa Margarita,93453,San Luis Obispo,SLU Parkhill Stn,35.4076463483,-120.545853886,A,805-438-5426,#40,0,1,0,0,1,0,P,FS,0,,SCHED_A,fire-station,medium,0000FF
+Shandon FS,COUNTY,SLU,501 W. Center St,Shandon,93461,San Luis Obispo,SLU Shandon Stn,35.6562615397,-120.381226808,A,805-238-4957,#31,1,0,0,0,0,0,P,FS,0,,SCHED_A,fire-station,medium,0000FF
+Paso Robles FS,COUNTY,SLU,2510 Ramada Dr,Paso Robles,93446,San Luis Obispo,SLU Paso Robles Stn,35.5813805835,-120.695481908,A,805-227-6553,#30,1,0,0,0,0,"Sm Rescue, Hazmat",P,FS,0,,SCHED_A,fire-station,medium,0000FF
+Cambria FS,COUNTY,SLU,6126 Coventry Ln,Cambria,93428,San Luis Obispo,SLU Cambria STN,35.5728682666,-121.104355134,A,805-927-4262,#10,1,0,0,0,0,ICS Type 2 Rescue,P,FS,0,,SCHED_A,fire-station,medium,0000FF
+SLU Headquarters,COUNTY,SLU,635 N. Santa Rosa St,San Luis Obispo,93405,San Luis Obispo,SLU Admin,35.3017203683,-120.678458424,A,805-543-4244,#12,1,0,0,0,0,0,V,FS,0,null,SCHED_A,fire-station,small,0000FF
+Nipomo FS,COUNTY,SLU,450 Pioneer Av,Nipomo,93444,San Luis Obispo,SLU Nipomo Stn,35.0406924064,-120.486887429,A,805-929-3911,#20,0,2,0,0,0,Sm Rescue,P,FS,0,,SCHED_A,fire-station,medium,0000FF
+Las Tablas FS,STATE,SLU,275 Cypress Mt. Drive,Paso Robles,93446,San Luis Obispo,SLU Las Tablas FS,35.6568825152,-120.923289991,B,805-238-4592,#35,0,0,1,0,0,,,FS,0,,FS,fire-station,medium,FF0000
+Cayucos FS,STATE,SLU,Hwy. 1 @ Chaney,Cayucos,93430,San Luis Obispo,SLU Cayucos FS,35.4211768132,-120.876293085,B,805-995-1133,#11,0,0,1,0,0,,,FS,0,,FS,fire-station,medium,FF0000
+La Panza FS,STATE,SLU,"5398 Pozo Rd, Star Rt, Box 75A",Santa Margarita,93453,San Luis Obispo,SLU La Panza FS,35.3802319237,-120.188283954,B,805-438-5460,#41,0,0,1,0,0,,,FS,0,,FS,fire-station,medium,FF0000
+Paso Robles AAB,STATE,SLU,3403 Taxiway A,Paso Robles,93446,San Luis Obispo,SLU Paso Robles AAB,35.6776562641,-120.633074293,B,805-238-1878,,0,0,0,0,0,,,AAB,0,,AIR,airport,medium,000000
+Cuesta CC,STATE,SLU,"Rt. 2, Box 427, Bld 962",San Luis Obispo,93401,San Luis Obispo,SLU Cuesta CC,35.329401,-120.733174,B,805-543-9570,,0,0,0,0,0,,,CC,0,,CAMPS,logging,medium,FFA500
+San Luis Obispo ICC,STATE,SLU,635 North Santa Rosa,San Luis Obispo,93405,San Luis Obispo,SLU San Luis Obispo ICC,35.3019084882,-120.678667348,B,805-543-4244,null,0,0,0,0,0,null,null,ICC,0,null,OTHER,emergency-telephone,small,
+San Luis Obispo UH,STATE,SLU,635 North Santa Rosa,San Luis Obispo,93405,San Luis Obispo,SLU San Luis Obispo UH,35.301851314,-120.676794769,B,805-543-4244,null,0,0,0,0,0,null,null,UH,0,null,OTHER,town-hall,large,008000
+Mount Lowe COM,STATE,SLU,,,,San Luis Obispo,SLU Mount Lowe COM,35.3196467976,-120.601281832,B,805-543-4244,,0,0,0,0,0,,,COM,0,,OTHER,oil-well,medium,000000
+Red Hill COM,STATE,SLU,,,,San Luis Obispo,SLU Red Hill COM,35.6075166267,-120.25632911,B,805-543-4244,,0,0,0,0,0,,,COM,0,,OTHER,oil-well,medium,000000
+North County Auto Shop,STATE,SLU,4735 Airport Road,Paso Robles,93446,San Luis Obispo,SLU North County Shop,35.6700189365,-120.642456274,B,805-239-1579,,0,0,0,0,0,,,EQF,1,,OTHER,bus,small,000000
+South County Auto Shop,STATE,SLU,635 North Santa Rosa,635 North Santa Rosa,93405,San Luis Obispo,SLU South County Shop,35.3021445023,-120.678181326,B,805-543-4244,,0,0,0,0,0,,,EQF,0,,OTHER,bus,small,000000
+South Bay Training Center,COUNTY,SLU,880 Manzanita Drive,Los Osos,93402,San Luis Obispo,SLU SBTC,35.3099731249,-120.83575646,A,805-528-2160,,0,0,0,0,0,,,EQF,0,,OTHER,building,small,000000
