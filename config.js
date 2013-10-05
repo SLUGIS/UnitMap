@@ -1,8 +1,10 @@
 var dataUrl = 'data/data.csv';
 var maxZoom = 19;
 var fieldSeparator = ',';
-var baseUrl = 'http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png';
-var baseAttribution = '&copy; <a href="/copyright">OpenStreetMap contributors</a>. Tiles courtesy of <a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team</a>';
+//var baseUrl = 'http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png';
+//var baseAttribution = '&copy; <a href="/copyright">OpenStreetMap contributors</a>. Tiles courtesy of <a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team</a>';
+var baseUrl = 'http://{s}.tiles.mapbox.com/v3/slugis.map-56nzvdgc/{z}/{x}/{y}.png';
+var baseAttribution = 'Map tiles &copy; <a href="http://mapbox.com">MapBox</a>';
 var subdomains = 'abcd';
 var clusterOptions = {showCoverageOnHover: false, maxClusterRadius: 50};
 var labelColumn = "name";

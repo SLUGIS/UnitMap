@@ -5,7 +5,9 @@ var center = new L.LatLng(0, 0);
 var map = new L.Map('map', {center: center, zoom: 2, maxZoom: maxZoom, layers: [basemap]});
 
 //otherBasemaps
-var mbStreets = L.tileLayer('http://{s}.tiles.mapbox.com/v3/slugis.map-56nzvdgc/{z}/{x}/{y}.png', { attribution: 'Map tiles &copy; <a href="http://mapbox.com">MapBox</a>', maxZoom: 19 });
+//var mbStreets = L.tileLayer('http://{s}.tiles.mapbox.com/v3/slugis.map-56nzvdgc/{z}/{x}/{y}.png', { attribution: 'Map tiles &copy; <a href="http://mapbox.com">MapBox</a>', maxZoom: 19 });
+
+var hotosm = L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {attribution: '&copy; <a href="/copyright">OpenStreetMap contributors</a>. Tiles courtesy of <a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team</a>'});
 
 var combined2011 = L.tileLayer('http://gis.slocounty.ca.gov/arcgis/rest/services/Aerials/2011_Combined_WGSWMAS/MapServer/tile/{z}/{y}/{x}', {
     maxZoom: 20,
@@ -146,7 +148,7 @@ if(typeof(String.prototype.strip) === "undefined") {
 
 var baseLayers = {
     "basemap": basemap,
-    "MapBox streets": mbStreets,
+    "HOTOSM style": hotosm,
     "(2011) combined": combined2011,
     "(2007) 12\"": oneFoot2007,
     "(2003) 12\"": oneFoot2003
