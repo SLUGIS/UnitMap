@@ -1,4 +1,4 @@
-name,owner,unit,address,city,zip,county,cad_name,lat,lon,funding,phone_num,aka,eng_type_1,eng_type_2,eng_type_3,wtender_ty,wtender__1,other_reso,staffing,type,doz_type_2,remark,class,marker-symbol,marker-size,marker-color
+name,owner,unit,address,city,zip,county,cad_name,lat,lng,funding,phone_num,aka,eng_type_1,eng_type_2,eng_type_3,wtender_ty,wtender__1,other_reso,staffing,type,doz_type_2,remark,class,marker-symbol,marker-size,marker-color
 Morro Toro FS,COUNTY,SLU,15325 Hwy 41,Atascadero,93422,San Luis Obispo,SLU Morro-Toro Stn,35.4535486673,-120.751231847,A,805-466-5089,#14,0,1,0,0,0,0,V,FS,0,,SCHED_A,fire-station,medium,0000FF
 South Bay FS,COUNTY,SLU,2315 Bayview Heights Drive,Los Osos,93402,San Luis Obispo,SLU South Bay Stn,35.309413467,-120.833841323,A,805-528-1053,#15,0,2,0,0,0,Sm Rescue,P,FS,0,,SCHED_A,fire-station,medium,0000FF
 Airport FS,COUNTY,SLU,4651 Broad Street,San Luis Obispo,93401,San Luis Obispo,SLU Airport Stn,35.2381038857,-120.636333604,A,805-544-5105,#21,0,1,0,0,1,ICS Type 2 Rescue,P,FS,0,,SCHED_A,fire-station,medium,0000FF
