@@ -4,6 +4,23 @@ var center = new L.LatLng(0, 0);
 
 var map = new L.Map('map', {center: center, zoom: 2, maxZoom: maxZoom, layers: [basemap]});
 
+//otherBasemaps
+var combined2011 = L.tileLayer('http://gis.slocounty.ca.gov/arcgis/rest/services/Aerials/2011_Combined_WGSWMAS/MapServer/tile/{z}/{y}/{x}', {
+    maxZoom: 20,
+    attribution: 'Data <a href="http://www.slocounty.ca.gov/IT/GIS">San Luis Obispo County</a> | <a href="https://github.com/SLUGIS/leaflet-basic">Code</a>'
+});
+
+var oneFoot2007 = L.tileLayer('http://gis.slocounty.ca.gov/arcgis/rest/services/Aerials/2007_Aerials_1ft_WGSWMAS/MapServer/tile/{z}/{y}/{x}', {
+    maxZoom: 20,
+    attribution: 'Data <a href="http://www.slocounty.ca.gov/IT/GIS">San Luis Obispo County</a> | <a href="https://github.com/SLUGIS/leaflet-basic">Code</a>'
+});
+
+var oneFoot2003 = L.tileLayer('http://gis.slocounty.ca.gov/arcgis/rest/services/Aerials/2003_Aerials_1ft_WGSWMAS/MapServer/tile/{z}/{y}/{x}', {
+    maxZoom: 20,
+    attribution: 'Data <a href="http://www.slocounty.ca.gov/IT/GIS">San Luis Obispo County</a> | <a href="https://github.com/SLUGIS/leaflet-basic">Code</a>'
+});
+//endOtherBasemaps
+
 var popupOpts = {
     autoPanPadding: new L.Point(5, 50),
     autoPan: true
@@ -124,6 +141,15 @@ if(typeof(String.prototype.strip) === "undefined") {
         return String(this).replace(/^\s+|\s+$/g, '');
     };
 }
+
+var baseLayers = {
+    "basemap": basemap,
+    "(2011) combined": combined2011,
+    "(2007) 12\"": oneFoot2007,
+    "(2003) 12\"": oneFoot2003
+};     
+
+L.control.layers(baseLayers, null, {position: 'bottomleft'}).addTo(map);
 
 map.addLayer(markers);
 
