@@ -158,6 +158,12 @@ L.control.layers(baseLayers, null, {position: 'bottomleft'}).addTo(map);
 
 map.addLayer(markers);
 
+new L.Control.GeoSearch({
+        provider: new L.GeoSearch.Provider.Google(),
+        position: 'topcenter',
+        showMarker: true
+    }).addTo(map);
+
 $(document).ready( function() {
     $.ajax ({
         type:'GET',
