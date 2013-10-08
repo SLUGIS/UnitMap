@@ -15,7 +15,7 @@ html, body, #map {
 #filter-container {
     position: absolute;
     right: 12px;
-    top: 12px;
+    bottom: 18px;
     z-index: 999;
 }
 
@@ -53,6 +53,6 @@ input.search-query {
 
 .search-box {
     font-size: 10pt !important;
-    padding-top: 3px !important;
-    padding-bottom: 3px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
 }

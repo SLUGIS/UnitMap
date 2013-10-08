@@ -154,7 +154,7 @@ var baseLayers = {
     "(2003) 12\"": oneFoot2003
 };     
 
-L.control.layers(baseLayers, null, {position: 'bottomleft'}).addTo(map);
+L.control.layers(baseLayers, null, {position: 'topleft'}).addTo(map);
 
 map.addLayer(markers);
 
