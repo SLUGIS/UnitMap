@@ -13,13 +13,10 @@ html, body, #map {
 }
 
 #filter-container {
-    position: 'bottom-center';
-    /*
     position: absolute;
     right: 12px;
     bottom: 18px;
     z-index: 999;
-    */
 }
 
 .leaflet-control-attribution {
